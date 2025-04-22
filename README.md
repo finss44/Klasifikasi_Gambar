@@ -1,20 +1,16 @@
 # Proyek Klasifikasi Gambar
 
 ## Deskripsi
+Dataset Kaggle: https://www.kaggle.com/datasets/puneet6060/intel-image-classification
 
-Proyek ini mengimplementasikan model Convolutional Neural Network (CNN) menggunakan TensorFlow dan Keras untuk klasifikasi gambar. Model dilatih untuk mengenali dan mengklasifikasikan gambar ke dalam beberapa kategori. Notebook Jupyter (`Proyek_Klasifikasi_Gambar.ipynb`) berisi kode lengkap untuk membangun, melatih, mengevaluasi, dan mengonversi model.
+Intel Image Classification
 
-## Struktur Direktori
-/ 
-├───tfjs_model                   
-| ├───group1-shard1of1.bin
-| └───model.json
-├── saved_model/                   
-├── tflite/                      
-│   └── model.tflite             
-│   └── label.txt                
-|── requirements.txt
-├── Proyek_Klasifikasi_Gambar.ipynb 
+Proyek ini mengimplementasikan model Convolutional Neural Network (CNN) menggunakan TensorFlow dan Keras untuk klasifikasi gambar. Model dilatih untuk mengenali dan mengklasifikasikan gambar ke dalam beberapa kategori. Notebook (`Proyek_Klasifikasi_Gambar.ipynb`) berisi kode lengkap untuk membangun, melatih, mengevaluasi, dan mengonversi model.
+
+## Model Konversi
+- tfjs_model
+- model.tflite
+- saved_model
 
 ## Dependensi
 
